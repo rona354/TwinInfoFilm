@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TwinInfoFilm</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+</resources>
