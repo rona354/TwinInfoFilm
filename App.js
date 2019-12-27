@@ -22,7 +22,7 @@ export class App extends Component {
       this.setState({ loading: true, errorInput: false });                                            //Loading true buat loading di poster sambil nunggu await
       const response = await axios.get('http://www.omdbapi.com/', {
         params: {
-          apikey: 'xxxxxxxx',                                                       //API key free registered ini maksimal 1000 per hari
+          apikey: '1dfee825',                                                       //API key free registered ini maksimal 1000 per hari
           t: replaceURL
         }
       });
